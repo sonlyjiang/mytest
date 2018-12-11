@@ -1,0 +1,30 @@
+
+*{
+	margin: 0px;
+	padding: 0px;
+	text-indent: 2em;
+	letter-spacing: 2px;
+}
+.only_p{
+	/* float: left; */
+}
+.only1{
+	/* float: left; */
+	margin-left: 7px;
+	/* background: pink; */
+	animation: 1s go infinite linear;
+}
+@keyframes go{
+	0%,100%{
+		opacity: 1;
+	},
+	49.99%{
+		opacity: 1;
+	}
+	50%{
+		opacity: 0;
+	},
+	50.001%{
+		opacity: 1;
+	}
+}
